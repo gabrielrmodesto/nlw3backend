@@ -4,7 +4,7 @@ export default {
 	render(image: Image) {
 		return {
 			id: image.id,
-			url: `http://localhost:3333/upload/${image.path}`
+			url: `http://:3333/upload/${image.path}`
 		};
 	},
 	renderMany(images: Image[]) {
